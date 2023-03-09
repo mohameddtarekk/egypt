@@ -1,0 +1,182 @@
+body{
+    font-family: "Helvetica";
+}
+
+#home
+{
+    width: 100%;
+    height: 660px;
+    background-image: url(../events-heavenly-header.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    
+}
+.overlay
+{
+    width: 100%;
+    height: 660px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+.sidenav
+{
+    width: 19%;
+    height: 100%;
+    background-color: rgb(65,70,88);
+    z-index: 67687676786786;
+    position: absolute;
+    left: -240px;
+}
+
+.link
+{
+    display: block;
+}
+
+.sidenav a
+{
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s;
+}
+.btn-close
+{
+    margin-left: 150px;
+    margin-top: 30px;
+    
+}
+
+.sidenav a:hover
+{
+    color:  rgba(214, 46, 51, 0.4);
+}
+
+ .close i:hover
+{
+    color:  rgba(214, 46, 51, 0.4) !important;
+}
+
+.col-md-4
+{
+  position: absolute;
+  top: 33%;
+  left: 31%;
+}
+.allsinger
+{
+    margin-top: 100px;
+   margin-left: 340px;
+   width: 50%;
+   height: 100%;
+   background-color: rgb(204,204,204);
+}
+.singer
+{
+   background-color:  rgb(230,130,133);
+   cursor: pointer;
+   
+}
+.content
+{
+    display: none;
+}
+#countsec
+{
+    background-image: url(../invitation-2508607__340.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 330px;
+    margin-top: 100px;
+    position: relative;
+
+}
+.countoverlay
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+
+}
+
+.date
+{
+    margin-top: 90px;
+}
+.info i
+{
+   color:#999  ;
+}
+.info .email
+{
+    color: rgb(214,46,51);
+}
+
+#JOIN-US
+{
+    margin-top: 200px;
+    height: 800px;
+}
+#JOIN-US h1
+{
+    
+    font-weight: bold;
+}
+
+.fa-brands 
+{
+    border: 1px solid  #999;
+    color:  #999;
+    cursor: pointer;
+    transition: all 0.2s;
+
+}
+.fa-brands:hover
+{
+    color: white;
+    background-color: rgb(214,46,51);
+    border-color: transparent;
+
+}
+
+.form-control
+{
+    font-size: 19px;
+}
+
+.open
+{
+    margin-top: 300px;
+    margin-left: 20px;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+    
+    
+   
+}
+
+.sp
+{
+    color: rgb(214,46,51);
+    font-size: 22px;
+}
+
+.text
+{
+    font-size: small;
+}
